@@ -22,6 +22,7 @@ header{
 .nav__links{
     list-style: none;
 }
+
 .nav__links li {
     border-radius: 0.4em;
     display: inline-block;
@@ -79,7 +80,6 @@ li.dropdown {
 
 .dropdwn-cont a:hover {
     background-color: #969292;
-
 }
 
 .dropdown:hover .dropdwn-cont {
