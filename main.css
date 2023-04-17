@@ -86,10 +86,7 @@ li.dropdown {
   display: block;
 }
 /*BODY*/
-html{
-    height: 100%;
-}
-body {
+html,body {
     height: 100%;
     font-family: 'Montesrrat',sans-serif;
     background: linear-gradient(349deg, rgba(2,0,36,1) 0%, rgba(1,1,149,0.8796296296296297) 60%, rgba(4,126,150,1) 100%);
