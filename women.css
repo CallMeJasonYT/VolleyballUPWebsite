@@ -1,0 +1,147 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background: linear-gradient(349deg, rgba(2,0,36,1) 0%, rgba(1,1,149,0.8796296296296297) 60%, rgba(4,126,150,1) 100%);
+  overflow-x: hidden;
+  height: 100%;
+}
+.leaderboard{
+  max-width: 55em;
+  margin: auto;
+  margin-top: 7em;
+  display: block;
+  padding: 3em;
+  background-color: #030303a1;
+  border-radius: 25px;
+}
+.description{
+  text-align: center;
+  margin: 2em;
+  color: white;
+}
+table{
+  width: 51em;
+  color: white;
+  margin: 2em;
+  text-align: center;
+}
+td{
+  max-width: 2em;
+  padding: .3em;
+  text-align: center;
+}
+tbody tr{
+  box-shadow: 0 4px rgba(0, 0, 0, 0.699);
+  border-radius: 25px;
+}
+tbody tr:hover{
+  transform: scale(1.025);
+  transition: .2s ease-in-out;
+}
+
+.buttonRow{
+display: flex;
+flex-direction: row;
+gap: 15em;
+}
+
+.button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  width: 14em;
+  padding: 3px;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:active,
+.button:hover {
+outline: 0;
+}
+
+.button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button:hover span {
+  background: none;
+}
+
+#First{
+  color: gold;
+  font-weight: 800;
+}
+#Second{
+  color: silver;
+  font-weight: 800;
+
+}
+#Third{
+  color: #cd7f32;
+  font-weight: 800;
+}
+#Won{
+  color: #04f818;
+}
+#Lost{
+  color: #ff0000;
+}
+#Team{
+  color: #5ad0ff;
+}
+
+#Main{
+margin-left: 2em;
+}
+
+@media screen and (max-width: 600px) {  
+  .responsive thead {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+  }
+  
+  .responsive tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  .responsive td {
+    border: 1px solid;
+    border-bottom: none;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  .responsive td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .responsive td:last-child {
+    border-bottom: 1px solid;
+  }
+
+  .button {
+      font-size: 24px;
+      min-width: 196px;
+    }
+}
