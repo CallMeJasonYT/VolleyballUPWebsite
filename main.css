@@ -110,7 +110,7 @@ h1,h3{
     padding: 1em;
     background-color: #030303a1;
     border-radius: 25px;
-    visibility: visible; /*Change to hidden when No matches are played*/
+    visibility: hidden; /*Change to hidden when No matches are played*/
 }
 
 table{
