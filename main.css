@@ -99,7 +99,7 @@ h1,h3{
     text-align: center;
 }
 
-.countdown{
+.countdown, .countdown2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,6 @@ h1,h3{
     border-radius: 25px;
     visibility: visible; /*Change to hidden when No matches are played*/
 }
-
 table{
     margin-top: 2em;
     width: 100%;
@@ -134,13 +133,13 @@ tr{
     text-align: center;
 
 }
-#countdwn{
+#countdwn, #count2{
         text-align: center;
         font-size: 60px;
         padding: .3em;
         width: 100%;
 }
-#countdwn:hover{
+#countdwn:hover , #count2:hover{
     transform: scale(1.1);
     transition: .2s ease-in-out;
 }
