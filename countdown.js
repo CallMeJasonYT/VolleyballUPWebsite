@@ -2,7 +2,7 @@
 var countDownDate1 = new Date("May 4, 2023 20:00:00").getTime();
         
 // Update the count down every 1 second
-var x = setInterval(function() {
+var x1 = setInterval(function() {
 
   // Get today's date and time
   var now = new Date().getTime();
@@ -22,7 +22,7 @@ var x = setInterval(function() {
     
   // If the count down is over, write some text 
   if (distance < 0) {
-    clearInterval(x);
+    clearInterval(x1);
     document.getElementById("countdwn").innerHTML = "EXPIRED";
   }
 }, 1000);

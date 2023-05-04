@@ -2,7 +2,7 @@
 var countDownDate2 = new Date("May 5, 2023 14:00:00").getTime();
         
 // Update the count down every 1 second
-var x = setInterval(function() {
+var x2 = setInterval(function() {
 
   // Get today's date and time
   var now = new Date().getTime();
