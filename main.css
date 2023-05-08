@@ -197,6 +197,9 @@ tr{
  }
 
 @media(max-width: 768px) {
+    .navbar{
+        padding: 0%;
+    }
     .burger{
         display: block;
         position: fixed;
