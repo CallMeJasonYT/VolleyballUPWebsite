@@ -200,6 +200,12 @@ tr{
     .navbar{
         padding: 0%;
     }
+    main{
+        padding: 0 0.2em;
+    }
+    .navbar{
+        padding: 0%;
+    }
     .burger{
         display: block;
         position: fixed;
@@ -207,6 +213,7 @@ tr{
         right: 4%;
     }
     .logo {
+        padding: 0%;
         position:fixed;
         top: 2.5%;
         left: 5%;
