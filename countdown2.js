@@ -23,6 +23,6 @@ var x2 = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("count2").innerHTML = "EXPIRED";
+    document.getElementById("count2").innerHTML = "Σε εξέλιξη";
   }
 }, 1000);
