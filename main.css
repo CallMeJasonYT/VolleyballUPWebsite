@@ -175,7 +175,16 @@ tr{
     transform: scale(1.1);
     transition: .2s ease-in-out;
 }
-
+/*Live*/
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+.blinking {
+    animation: blink 1s infinite;
+}
 /*footer*/
 .footer {
     margin-top: auto;

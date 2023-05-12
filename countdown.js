@@ -23,6 +23,7 @@ var x1 = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x1);
-    document.getElementById("countdwn").innerHTML = "Σε εξέλιξη";
+    document.getElementById("countdwn").innerHTML = "Σε εξέλιξη"+ ' <svg height="50" width="25" class="blinking">' +
+    '<circle cx="12" cy="12" r="10" fill="red" /></svg>';
   }
 }, 1000);
