@@ -8,18 +8,18 @@
 </head>
 <body>
     <div class="Gamestable">
-            <div class="description">
-                <h2>Μεικτό Πανεπιστημιακό Πρωτάθλημα Πετοσφαίρισης</h2>
-                <p>Τελευταία ενημέρωση: 17/05/2023</p>
-            </div>
-            <div class="buttonRow">
-                <a href="index.html" style="text-decoration:none">
-                    <button class="button" role="button" id="Rankings"><span class="text">Αρχική Σελίδα</span></button>
-                </a>
-                <a href="mixed.html" style="text-decoration:none">
-                    <button class="button" role="button"><span class="text">Βαθμολογία</span></button>
-                </a>
-            </div>
+        <div class="description">
+            <h2>Μεικτό Πανεπιστημιακό Πρωτάθλημα Πετοσφαίρισης</h2>
+            <p>Τελευταία ενημέρωση: 23/05/2023</p>
+        </div>
+        <div class="buttonRow">
+            <a href="index.html" style="text-decoration:none">
+                <button class="button" role="button" id="Rankings"><span class="text">Αρχική Σελίδα</span></button>
+            </a>
+            <a href="mixed.html" style="text-decoration:none">
+                <button class="button" role="button"><span class="text">Βαθμολογία</span></button>
+            </a>
+        </div>
         <h3>1η Αγωνιστική</h3>  
             <table id="Gamestable">
                 <thead>
@@ -83,156 +83,182 @@
                     <th></th>
                 </tr>
             </thead>
-        <tbody>
-            <tr> <!--Πρώτη σειρά Ομάδων-->
-                    <td id="team">Γυμναστήριο 2</td>
+            <tbody>
+                <tr> <!--Πρώτη σειρά Ομάδων-->
+                        <td id="team">Γυμναστήριο 2</td>
+                        <td id="Won">2</td> <!--Σκόρ και εάν κέρδισε id=won-->
+                        <td id="team">Γυμναστήριο 1</td>
+                        <td id="Won">2</td>
+                        <td id="team">Εστία</td>
+                        <td>0</td>
+                        <td id="team">Ιστορικό-Αρχαιολογικό</td>
+                        <td>0</td>
+                    </tr>
+                    <tr> <!--Δεύτερη Σειρά Ομάδων-->
+                        <td id="team">Γυμναστήριο 3</td>
+                        <td>0</td>  <!--Σκόρ και εάν κέρδισε id=won-->
+                        <td id="team">Γυμναστήριο 5</td>
+                        <td>0</td>
+                        <td id="team">Γυμναστήριο 4</td>
+                        <td id="Won">2</td>
+                        <td id="team">Γυμναστήριο 1</td>
+                        <td id="Won">2</td>
+                    </tr>
+                    <tr class="date">
+                        <td>20/03/2023 14:30</td>
+                        <td></td>
+                        <td>20/03/2023 14:30</td>
+                        <td></td>
+                        <td>17/03/2023 14:30</td>
+                        <td></td>
+                        <td>10/05/2023 15:00</td>
+                    </tr>
+            </tbody>
+        </table>
+
+        <h3>3η Αγωνιστική</h3>
+        <table id="Gamestable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!--Πρώτη σειρά Ομάδων-->
+                    <td id="team">Γυμναστήριο 5</td>
                     <td id="Won">2</td> <!--Σκόρ και εάν κέρδισε id=won-->
                     <td id="team">Γυμναστήριο 1</td>
                     <td id="Won">2</td>
                     <td id="team">Εστία</td>
                     <td>0</td>
-                    <td id="team">Ιστορικό-Αρχαιολογικό</td>
+                    <td id="team">Γυμναστήριο 5</td>
+                    <td>-</td>
+                </tr>
+                <tr> <!--Δεύτερη Σειρά Ομάδων-->
+                    <td id="team">Γυμναστήριο 3</td>
+                    <td>1</td>  <!--Σκόρ και εάν κέρδισε id=won-->
+                    <td id="team">Γυμναστήριο 4</td>
                     <td>0</td>
+                    <td id="team">Γυμναστήριο 2</td>
+                    <td id="Won">2</td>
+                    <td id="team">Ιστορικό-Αρχαιολογικό</td>
+                    <td>-</td>
+                </tr>
+                <tr class="date">
+                    <td>15/05/2023 15:00</td>
+                    <td></td><!--Leave Empty-->
+                    <td>05/05/2023 14:00</td>
+                    <td></td><!--Leave Empty-->
+                    <td>29/03/2023 15:30</td>
+                    <td></td>
+                    <td>24/05/2023 19:00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>4η Αγωνιστική</h3>
+        <table id="Gamestable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!--Πρώτη σειρά Ομάδων-->
+                    <td id="team">Γυμναστήριο 1</td>
+                    <td id="Won">2</td> <!--Σκόρ και εάν κέρδισε id=won-->
+                    <td id="team">Γυμναστήριο 5</td>
+                    <td>1</td>
+                    <td id="team">Γυμναστήριο 4</td>
+                    <td>0</td>
+                    <td id="team">Ιστορικό-Αρχαιολογικό</td>
+                    <td>-</td>
                 </tr>
                 <tr> <!--Δεύτερη Σειρά Ομάδων-->
                     <td id="team">Γυμναστήριο 3</td>
                     <td>0</td>  <!--Σκόρ και εάν κέρδισε id=won-->
-                    <td id="team">Γυμναστήριο 5</td>
-                    <td>0</td>
-                    <td id="team">Γυμναστήριο 4</td>
+                    <td id="team">Εστία</td>
                     <td id="Won">2</td>
-                    <td id="team">Γυμναστήριο 1</td>
+                    <td id="team">Γυμναστήριο 2</td>
                     <td id="Won">2</td>
+                    <td id="team">Εστία</td>
+                    <td>-</td>
                 </tr>
                 <tr class="date">
-                    <td>20/03/2023 14:30</td>
-                    <td></td>
-                    <td>20/03/2023 14:30</td>
-                    <td></td>
-                    <td>17/03/2023 02:30</td>
-                    <td></td>
-                    <td>10/05/2023 15:00</td>
+                    <td id="nonplayable">ΜΗ ΣΥΜΠΛΗΡΩΣΗ ΟΜΑΔΑΣ</td>
+                    <td></td><!--Leave Empty-->
+                    <td>17/05/2023 19:00</td>
+                    <td></td><!--Leave Empty-->
+                    <td>12/05/2023 15:30</td>
+                    <td></td><!--Leave Empty-->
+                    <td>24/05/2023 19:00</td>
                 </tr>
             </tbody>
         </table>
-    <h3>3η Αγωνιστική</h3>
-    <table id="Gamestable">
-        <thead>
-            <tr>
-                <th></th>
-                <th id="Score">Σκορ</th>
-                <th></th>
-                <th id="Score">Σκορ</th>
-                <th></th>
-                <th id="Score">Σκορ</th>
-                <th></th>
-            </tr>
-        </thead>
-    <tbody>
-        <tr> <!--Πρώτη σειρά Ομάδων-->
-                <td id="team">Γυμναστήριο 5</td>
-                <td id="Won">2</td> <!--Σκόρ και εάν κέρδισε id=won-->
-                <td id="team">Γυμναστήριο 1</td>
-                <td id="Won">2</td>
-                <td id="team">Εστία</td>
-                <td>0</td>
-            </tr>
-            <tr> <!--Δεύτερη Σειρά Ομάδων-->
-                <td id="team">Γυμναστήριο 3</td>
-                <td>1</td>  <!--Σκόρ και εάν κέρδισε id=won-->
-                <td id="team">Γυμναστήριο 4</td>
-                <td>0</td>
-                <td id="team">Γυμναστήριο 2</td>
-                <td id="Won">2</td>
-            </tr>
-            <tr class="date">
-                <td>15/05/2023 15:00</td>
-                <td></td><!--Leave Empty-->
-                <td>05/05/2023 14:00</td>
-                <td></td><!--Leave Empty-->
-                <td>29/03/2023 15:30</td>
-            </tr>
-        </tbody>
-    </table>
 
-    <h3>4η Αγωνιστική</h3>
-    <table id="Gamestable">
-        <thead>
-            <tr>
-                <th></th>
-                <th id="Score">Σκορ</th>
-                <th></th>
-                <th id="Score">Σκορ</th>
-                <th></th>
-                <th id="Score">Σκορ</th>
-                <th></th>
-            </tr>
-        </thead>
-    <tbody>
-        <tr> <!--Πρώτη σειρά Ομάδων-->
-                <td id="team">Γυμναστήριο 1</td>
-                <td id="Won">2</td> <!--Σκόρ και εάν κέρδισε id=won-->
-                <td id="team">Γυμναστήριο 5</td>
-                <td>1</td>
-                <td id="team">Γυμναστήριο 4</td>
-                <td>0</td>
-            </tr>
-            <tr> <!--Δεύτερη Σειρά Ομάδων-->
-                <td id="team">Γυμναστήριο 3</td>
-                <td>0</td>  <!--Σκόρ και εάν κέρδισε id=won-->
-                <td id="team">Εστία</td>
-                <td id="Won">2</td>
-                <td id="team">Γυμναστήριο 2</td>
-                <td id="Won">2</td>
-            </tr>
-            <tr class="date">
-                <td id="nonplayable">ΜΗ ΣΥΜΠΛΗΡΩΣΗ ΟΜΑΔΑΣ</td>
-                <td></td><!--Leave Empty-->
-                <td>17/05/2023 19:00</td>
-                <td></td><!--Leave Empty-->
-                <td>12/05/2023 3:30μμ</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h3>5η Αγωνιστική</h3>
-    <table id="Gamestable">
-        <thead>
-            <tr>
-                <th></th>
-                <th id="Score">Σκορ</th>
-                <th></th>
-                <th id="Score">Σκορ</th>
-                <th></th>
-                <th id="Score">Σκορ</th>
-                <th></th>
-            </tr>
-        </thead>
-    <tbody>
-        <tr> <!--Πρώτη σειρά Ομάδων-->
-                <td id ="team">Γυμναστήριο 3</td>
-                <td>0</td> <!--Σκόρ και εάν κέρδισε id=won-->
-                <td id ="team">Γυμναστήριο 4</td>
-                <td>-</td>
-                <td id ="team">Γυμναστήριο 1</td>
-                <td id="Won">2</td>
-            </tr>
-            <tr> <!--Δεύτερη Σειρά Ομάδων-->
-                <td id="team">Εστία</td>
-                <td id="Won">2</td>  <!--Σκόρ και εάν κέρδισε id=won-->
-                <td id="team">Γυμναστήριο 5</td>
-                <td>-</td>
-                <td id="team">Γυμναστήριο 2</td>
-                <td>1</td>
-            </tr>
-            <tr class="date">
-                <td id="nonplayable">ΜΗ ΣΥΜΠΛΗΡΩΣΗ ΟΜΑΔΑΣ</td>
-                <td></td><!--Leave Empty-->
-                <td></td>
-                <td></td><!--Leave Empty-->
-                <td>17/05/2023 14:00</td>
-            </tr>
-        </tbody>
-    </table>
+        <h3>5η Αγωνιστική</h3>
+        <table id="Gamestable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                    <th id="Score">Σκορ</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!--Πρώτη σειρά Ομάδων-->
+                    <td id ="team">Γυμναστήριο 3</td>
+                    <td>0</td> <!--Σκόρ και εάν κέρδισε id=won-->
+                    <td id ="team">Γυμναστήριο 4</td>
+                    <td>-</td>
+                    <td id ="team">Γυμναστήριο 1</td>
+                    <td id="Won">2</td>
+                    <td id ="team">Ιστορικό-Αρχαιολογικό</td>
+                    <td id="Won">2</td>
+                </tr>
+                <tr> <!--Δεύτερη Σειρά Ομάδων-->
+                    <td id="team">Εστία</td>
+                    <td id="Won">2</td>  <!--Σκόρ και εάν κέρδισε id=won-->
+                    <td id="team">Γυμναστήριο 5</td>
+                    <td>-</td>
+                    <td id="team">Γυμναστήριο 2</td>
+                    <td>1</td>
+                    <td id ="team">Γυμναστήριο 3</td>
+                    <td>0</td>
+                </tr>
+                <tr class="date">
+                    <td id="nonplayable">ΜΗ ΣΥΜΠΛΗΡΩΣΗ ΟΜΑΔΑΣ</td>
+                    <td></td><!--Leave Empty-->
+                    <td>26/05/2023 15:30</td>
+                    <td></td><!--Leave Empty-->
+                    <td>17/05/2023 14:00</td>
+                    <td></td><!--Leave Empty-->
+                    <td id="nonplayable">ΜΗ ΣΥΜΠΛΗΡΩΣΗ ΟΜΑΔΑΣ</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
