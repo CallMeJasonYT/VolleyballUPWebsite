@@ -183,7 +183,8 @@ tr{
   }
   
 .blinking {
-    animation: blink 1s infinite;
+    animation: blink 1.2s infinite;
+ 
 }
 /*footer*/
 .footer {
@@ -261,6 +262,7 @@ tr{
     }
     .nav-links.active{
         transform: translateX(0%);
+        z-index: 999;
     }
     .dropdown{
         margin: 16px 0;

@@ -113,6 +113,11 @@ tbody tr:hover{
   margin-left: 2em;
 }
 
+#comments{
+    text-align: center;
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 600px) {  
     .responsive thead {
       visibility: hidden;

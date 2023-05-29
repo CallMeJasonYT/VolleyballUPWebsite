@@ -62,7 +62,25 @@ h3,h2 {
 #Won{
     color: #04f818;
 }
-
+#f4{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+    /* color: #D36135; */
+    color: #e7eb0e;
+}
+/* SEMIFINALS */
+#semifin {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.15em;
+}
+/* FINAL */
+#fin {
+    text-align: center;
+    color: #e7eb0e;
+    font-style: italic;
+}
 #nonplayable {
     color: red;
     font-style: italic;
