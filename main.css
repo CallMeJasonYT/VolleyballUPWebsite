@@ -170,6 +170,10 @@ tr{
         font-size: 60px;
         padding: .3em;
         width: 100%;
+        
+}
+#final {
+    color: #e7eb0e;
 }
 #countdwn:hover , #count2:hover{
     transform: scale(1.1);
