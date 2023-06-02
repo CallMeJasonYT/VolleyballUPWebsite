@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate2 = new Date("May 26, 2023 15:30:00").getTime();
+var countDownDate2 = new Date("6 June, 2023 17:30:00").getTime();
         
 // Update the count down every 1 second
 var x2 = setInterval(function() {
@@ -22,8 +22,8 @@ var x2 = setInterval(function() {
     
   // If the count down is over, write some text 
   if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdwn").innerHTML = "Σε εξέλιξη"+ ' <svg height="50" width="25" class="blinking">' +
+    clearInterval(x2);
+    document.getElementById("count2").innerHTML = "Σε εξέλιξη"+ ' <svg height="50" width="25" class="blinking">' +
     '<circle cx="12" cy="12" r="10" fill="red" /></svg>';;
   }
 }, 1000);

@@ -61,6 +61,11 @@ h3,h2 {
 #Won{
     color: #04f818;
 }
+#nonplayable {
+    color: red;
+    font-style: italic;
+    font-size: 1em;
+}
 
 .buttonRow{
     display: flex;
