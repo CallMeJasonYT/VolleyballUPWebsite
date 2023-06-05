@@ -67,6 +67,13 @@ h3,h2 {
     font-size: 1em;
 }
 
+/* FINAL */
+#fin {
+    text-align: center;
+    color: #e7eb0e;
+    font-style: italic;
+}
+
 .buttonRow{
     display: flex;
     flex-direction: row;
